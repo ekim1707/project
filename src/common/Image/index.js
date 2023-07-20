@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageComponent = ({ title, className, alt, width, height }) => {
+const Image = ({ title, className, alt, width, height }) => {
   return (
     <React.Fragment>
       <img
@@ -14,4 +14,4 @@ const ImageComponent = ({ title, className, alt, width, height }) => {
   );
 };
 
-export default ImageComponent;
+export default Image;

@@ -1,4 +1,17 @@
-@import "../../scss/common.styles.scss";
+@import "../../css/common.styles.css";
 
-.homeComponentContainer {
+.homeContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: var(--main-2);
+}
+
+.headerContainer {
+}
+
+.bannerContent {
+}
+
+.bannerIcon {
 }

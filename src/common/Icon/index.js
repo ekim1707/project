@@ -1,13 +1,6 @@
 import React from "react";
 
-const IconComponent = ({
-  className,
-  iconName,
-  role,
-  href,
-  iconStyles,
-  onClick,
-}) => {
+const Icon = ({ className, iconName, role, href, iconStyles, onClick }) => {
   const defaultStyles = {
     width: "25px",
     height: "25px",
@@ -33,4 +26,4 @@ const IconComponent = ({
   );
 };
 
-export default IconComponent;
+export default Icon;
