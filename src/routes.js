@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { resources } from "./environment/resources";
 import HomeContainer from "./containers/HomeContainer";
 
-const Router = () => {
+const ApplicationRouter = () => {
   return (
     <Router>
       <Routes>
@@ -13,4 +13,4 @@ const Router = () => {
   );
 };
 
-export default Router;
+export default ApplicationRouter;

@@ -1,13 +1,8 @@
-@import "./variables.scss";
-
 .buttonContainer {
   width: fit-content;
   height: fit-content;
   margin: auto;
 }
-// .submitButton {
-
-// }
 
 .hoverable {
   -webkit-transition: -webkit-box-shadow 0.5s;
