@@ -1,17 +1,47 @@
 @import "../../css/common.styles.css";
 
+/* Default */
 .homeContainer {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  /* background: var(--main-2); */
+  width: 100%;
+  height: 100vh;
+  padding: 75px;
+  /* transition needs work */
+  transition: all 1s ease;
+  position: relative;
+}
+
+/* Yellow */
+.homeContainerYellow {
   background: var(--main-2);
 }
 
-.headerContainer {
+.homeContainerYellow header {
+  text-align: center;
 }
 
-.bannerContent {
+.homeContainerYellow main {
+  display: flex !important;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
-.bannerIcon {
+/* Green */
+.homeContainerGreen {
+  background: var(--main-3);
+  align-items: initial;
+  padding-left: 200px;
+}
+
+.homeContainerGreen main {
+  padding-top: 30px;
+  display: flex;
+}
+
+.homeContainerGreen .createColumnDiv {
+  display: block;
+  padding: 75px 0 0 200px;
 }
