@@ -10,18 +10,9 @@ const HomeContainer = () => {
   //   React.useEffect(() => {
   //     newService.getAll().then((res) => setDataArray(res.data ? res.data : []));
   //   }, []);
-  const [buttonFlag, setButtonFlag] = useState(false);
+  const [buttonFlag, setButtonFlag] = useState(0);
 
-  const onScrollDownButtonClick = () => {
-    setButtonFlag(!buttonFlag);
-  };
-
-  return (
-    <Home
-      buttonFlag={buttonFlag}
-      onScrollDownButtonClick={onScrollDownButtonClick}
-    />
-  );
+  return <Home buttonFlag={buttonFlag} setButtonFlag={setButtonFlag} />;
 };
 
 export default HomeContainer;
