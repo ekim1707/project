@@ -13,16 +13,14 @@ const Home = ({ buttonFlag, setButtonFlag }) => {
     BANNER_LINK,
     CLICK_HERE_LABEL,
   } = content;
+
+  const classNameArray = [
+    "homeContainerYellow",
+    "homeContainerGreen",
+    "homeContainerGreen homeContainerBlue",
+  ];
   return (
-    <div
-      className={
-        buttonFlag == 2
-          ? "homeContainer homeContainerGreen homeContainerBlue"
-          : buttonFlag == 1
-          ? "homeContainer homeContainerGreen"
-          : "homeContainer homeContainerYellow"
-      }
-    >
+    <div className={`homeContainer ${classNameArray[buttonFlag]}`}>
       {buttonFlag < 2 && (
         <Button
           icon
