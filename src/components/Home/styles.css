@@ -1,52 +1,29 @@
 @import "../../css/common.styles.css";
 
-/* Default */
-.homeContainer {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  /* background: var(--bg-yellow); */
-  width: 100%;
-  height: 100vh;
-  padding: 75px;
-  /* transition needs work */
-  transition: all 1s ease;
-  position: relative;
+.headerContainer,
+.createColumnDiv {
+  padding: 50px;
 }
 
-/* bg-yellow */
-.homeContainerYellow {
+.bg-yellow {
   background: var(--bg-yellow);
 }
 
-.homeContainerYellow header {
-  text-align: center;
-}
-
-.homeContainerYellow main {
-  display: flex !important;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-/* bg-green */
-.homeContainerGreen {
+.bg-green {
   background: var(--bg-green);
   align-items: initial;
-  padding-left: 200px;
 }
 
-.homeContainerGreen main {
+.bg-green main {
   padding-top: 30px;
   display: flex;
 }
 
-.homeContainerGreen .createColumnDiv {
-  display: block;
-  padding: 75px 0 0 200px;
+.bg-green .createColumnDiv {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
-
-/* bg-blue */
-.homeContainerBlue {
+.bg-blue {
   background: var(--bg-blue);
 }

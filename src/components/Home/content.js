@@ -5,4 +5,5 @@ export default {
   BANNER_CONTENT_2: "PERFECT FUNCTION.",
   BANNER_LINK: "See how we work",
   CLICK_HERE_LABEL: "Now click here!",
+  SPOON_LABEL: "Nice Spoon",
 };
